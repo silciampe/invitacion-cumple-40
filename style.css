@@ -1,0 +1,45 @@
+*{
+    width: 340px;
+}
+.sillon{
+    height: 20vh;
+    width: 300px;
+}
+
+.lugar{
+    height: 10vh;
+    width: 40vh;
+}
+
+.recuadro {
+    border: 5px solid #be03fc;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 25px;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.formulario {
+    padding-top: 150px;
+    background-image: url("./imagenes/collage.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width: 90%;
+}
+
+.silybele{
+width: 40vh;
+}
+
+.cumplen40{
+width: 40vh;
+
+}
+
+.mapa{
+    width: 300px;
+}
