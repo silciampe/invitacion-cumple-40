@@ -8,7 +8,7 @@
     <title>CUMPLE 40 SIL Y BEL</title>
 </head>
 <body>
-    <div class="recuadro container col-sm-12 mx-4">
+    <div class="recuadro">
     <header>
         <div class="container">
             <img src="./imagenes/sil y bele.png" alt="nombres" class="silybele">
@@ -21,31 +21,40 @@
         </div>
     </header>
 
+<aside class="info">
+  <h1>TE ESPERAMOS PARA FESTEJAR CON NOSOTRAS</h1>
+  <h5>Cuándo?</h5>
+  <li>Sábado 28 de octubre</li>
+  <H5>Horario?</H5>
+  <li>De 18hs a 00hs</li>
+
+</aside>
 <main>
   <div>
-    <div class="formulario">
+    <form class="formulario" id="formulario" action="https://formspree.io/f/mknlkggb"
+    method="POST">
         <div class="mb-3">
-            <label for="exampleFormControlInput1 " class="form-label text-center">NOMBRE</label>
-            <input type="text" class="form-control w-75" id="exampleFormControlInput1" placeholder="escribe tu nombre">
+            <label for="exampleFormControlInput1 " class="form-label text-center w-50">NOMBRE</label>
+            <input type="text" class="form-control w-50" id="nombre"  name="nombre" placeholder="escribe tu nombre">
           </div>
           <div class="form-check">
-            <p>VAS A VENIR?</p>
+            
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
             <label class="form-check-label" for="flexRadioDefault1">
-              SI
+              SI VENIS
             </label>
           </div>
           <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
             <label class="form-check-label" for="flexRadioDefault2">
-              NO
+              NO VENIS
             </label>
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlInput1 " class="form-label text-center">CON QUIEN?</label>
-            <input type="text" class="form-control w-75" id="exampleFormControlInput1" placeholder="escribe con quien venis?">
+          <input type="text" class="form-control w-50" id="conQuien" name="conQuien" placeholder="con quien venis?">
           </div>
-        </div> 
+          <button type="submit" class="btn btn-primary mb-3 w-50 p-1">ENVIAR</button>
+        </form> 
     </div>
 </main>
 
@@ -54,6 +63,7 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3351.8676978386225!2d-60.701928599999995!3d-32.848754500000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b65166f7887499%3A0xf515d1b5984522f3!2sEsteban%20Echeverr%C3%ADa%20%26%20El%20Rosedal%2C%20Granadero%20Baigorria%2C%20Santa%20Fe!5e0!3m2!1ses-419!2sar!4v1695755211592!5m2!1ses-419!2sar" class="mapa" style="border: 1px solid;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </footer>
     </div>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" class="mapa" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" class="mapa" crossorigin="anonymous"></script>
     </body>
 </html>

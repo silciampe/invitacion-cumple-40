@@ -1,14 +1,17 @@
 *{
     width: 340px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
 }
 .sillon{
     height: 20vh;
-    width: 300px;
+    width: 60%;
 }
 
 .lugar{
     height: 10vh;
-    width: 40vh;
+    width: 60%;
 }
 
 .recuadro {
@@ -17,29 +20,46 @@
     margin: 30px;
     border-radius: 25px;
     height: 100%;
-    width: 100%;
+    width: 80%;
+    background: rgb(142,15,243);
+background: linear-gradient(205deg, rgba(142,15,243,1) 0%, rgba(246,238,75,0.9669117647058824) 45%);
     
 }
 
 .formulario {
-    padding-top: 150px;
+    padding-top: 50px;
+    padding-left: 10px;
     background-image: url("./imagenes/collage.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    height: 500px;
-    width: 90%;
+    height: 300px;
+    width: 60%;
 }
 
 .silybele{
-width: 40vh;
+width: 60%;
 }
 
 .cumplen40{
-width: 40vh;
+width: 60%;
 
 }
 
 .mapa{
-    width: 300px;
+    width: 60%;
+}
+
+.info{
+    width: 100%;
+   
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+h5{
+    padding-left: 50px;
 }
